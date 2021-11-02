@@ -29,10 +29,10 @@ text_size = (400, 0)
 text_size2 = (510, 0)
 
 clock = pygame.time.Clock()
-soundObj = pygame.mixer.Sound("Project1\\assets\\music.mp3")
+soundObj = pygame.mixer.Sound("assets\\music.mp3")
 soundObj.set_volume(0.1)
 soundObj.play(0)
-soundObj2 = pygame.mixer.Sound("Project1\\assets\\ping_pong_paddle.mp3")
+soundObj2 = pygame.mixer.Sound("assets\\ping_pong_paddle.mp3")
 soundObj2.set_volume(1)
 # Padding2 = 975
 BLACK = (0,0,0)
